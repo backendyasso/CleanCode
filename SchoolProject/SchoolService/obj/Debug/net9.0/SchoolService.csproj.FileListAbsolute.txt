@@ -1,0 +1,17 @@
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolService.deps.json
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolService.dll
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolService.pdb
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolData.dll
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolInfrastructure.dll
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolData.pdb
+D:\CleanCode_Api\SchoolProject\SchoolService\bin\Debug\net9.0\SchoolInfrastructure.pdb
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.csproj.AssemblyReference.cache
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.GeneratedMSBuildEditorConfig.editorconfig
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.AssemblyInfoInputs.cache
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.AssemblyInfo.cs
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.csproj.CoreCompileInputs.cache
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolSe.1E9A545A.Up2Date
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.dll
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\refint\SchoolService.dll
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\SchoolService.pdb
+D:\CleanCode_Api\SchoolProject\SchoolService\obj\Debug\net9.0\ref\SchoolService.dll

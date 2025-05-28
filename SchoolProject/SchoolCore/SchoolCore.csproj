@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolData\SchoolData.csproj" />
+    <ProjectReference Include="..\SchoolInfrastructure\SchoolInfrastructure.csproj" />
+    <ProjectReference Include="..\SchoolService\SchoolService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Students\Command\Handeler\" />
+    <Folder Include="Features\Students\Validation\Models\" />
+    <Folder Include="Features\Students\Command\" />
+    <Folder Include="Features\Students\Validation\" />
+    <Folder Include="Mapping\StudentMap\CommandMapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+</Project>

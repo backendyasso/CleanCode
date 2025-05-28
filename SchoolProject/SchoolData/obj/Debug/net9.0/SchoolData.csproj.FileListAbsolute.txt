@@ -1,0 +1,11 @@
+D:\CleanCode_Api\SchoolProject\SchoolData\bin\Debug\net9.0\SchoolData.deps.json
+D:\CleanCode_Api\SchoolProject\SchoolData\bin\Debug\net9.0\SchoolData.dll
+D:\CleanCode_Api\SchoolProject\SchoolData\bin\Debug\net9.0\SchoolData.pdb
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.GeneratedMSBuildEditorConfig.editorconfig
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.AssemblyInfoInputs.cache
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.AssemblyInfo.cs
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.csproj.CoreCompileInputs.cache
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.dll
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\refint\SchoolData.dll
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\SchoolData.pdb
+D:\CleanCode_Api\SchoolProject\SchoolData\obj\Debug\net9.0\ref\SchoolData.dll
