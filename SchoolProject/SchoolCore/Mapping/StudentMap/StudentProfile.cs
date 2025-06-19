@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-
+using SchoolCore.Features.Students.Command.Models;
 using SchoolCore.Features.Students.Query.Models;
 using SchoolCore.Features.Students.Query.Result;
 using SchoolData.Entities;
@@ -19,7 +19,10 @@ namespace SchoolCore.Mapping.StudentMap
             GetStudentListMapping();
             GetStudentByIDMapping();
             AddStudentCommandMapping();
+            CreateMap<AddStudentCommand, Student>();
+            CreateMap<UpdateStudentCommand, Student>();
+
         }
-        
+
     }
 }
