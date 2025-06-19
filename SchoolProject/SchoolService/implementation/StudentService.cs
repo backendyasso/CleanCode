@@ -89,5 +89,15 @@ namespace SchoolService.implementation
                 (d => d.Department).Where(s => s.StudID == id).FirstOrDefault();
             return student;
         }
+        public async Task UpdateAsync(Student student)
+        {
+            await _studentRepo.UpdateAsync(student);
+        }
+
+        public async Task DeleteAsync(Student student)
+        {
+            await _studentRepo.DeleteAsync(student);
+        }
+
     }
 }

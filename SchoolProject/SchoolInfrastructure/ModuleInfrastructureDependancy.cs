@@ -10,6 +10,11 @@ namespace SchoolInfrastructure
         public static IServiceCollection AddModuleInfrastructureDependancy(this IServiceCollection services)
         {
             services.AddTransient<IStudentRepo, StudentRepo>();
+
+            services.AddTransient<IDepartmentRepo, DepartmentRepo>();
+            services.AddScoped<ISubjectRepo, SubjectRepo>();
+
+
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
             return services;
         }

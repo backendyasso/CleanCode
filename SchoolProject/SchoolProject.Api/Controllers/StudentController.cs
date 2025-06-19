@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolCore.Features.Students.Command.Models;
 using SchoolCore.Features.Students.Query.Models;
-using SchoolData.AppMetaData;
 using SchoolProject.Api.Basics;
 
 namespace SchoolProject.Api.Controllers
 {
-   
+
+    [Route(Router.studentRouting.Prefix)]
     [ApiController]
     public class StudentController : AppControllerBase
     {
@@ -38,5 +38,18 @@ namespace SchoolProject.Api.Controllers
             var Response = await mediator.Send(command);
             return Ok(Response);
         }
+        [HttpPut(Router.studentRouting.Update)]
+        public async Task<IActionResult> UpdateStudent([FromBody] UpdateStudentCommand command)
+        {
+            return NewResult(await mediator.Send(command));
+        }
+
+        [HttpDelete(Router.studentRouting.Delete)]
+        public async Task<IActionResult> DeleteStudent(int id)
+        {
+            return NewResult(await mediator.Send(new DeleteStudentCommand(id)));
+        }
+
+
     }
 }

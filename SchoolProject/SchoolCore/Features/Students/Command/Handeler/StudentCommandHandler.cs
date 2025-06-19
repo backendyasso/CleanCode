@@ -27,6 +27,7 @@ public class AddStudentHandler : IRequestHandler<AddStudentCommand, Response<str
 
         if (AddResult == "Student added successfully")
             return _responseHandler.Created("Student added successfully");
+       
 
         return _responseHandler.BadRequest<string>("Failed to add Student");
     }

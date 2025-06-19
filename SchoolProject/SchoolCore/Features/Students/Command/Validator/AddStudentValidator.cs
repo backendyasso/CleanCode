@@ -23,8 +23,8 @@ namespace SchoolCore.Features.Students.Command.Validator
                 .MaximumLength(10);
 
             RuleFor(n => n.Address).NotNull().WithMessage("{PropertyValue} Mustn't be Null")
-               .NotEmpty().WithMessage("Address Mustn't be empty")
-               .MaximumLength(10);
+               .NotEmpty().WithMessage("Address Mustn't be empty");
+             
         }
 
 

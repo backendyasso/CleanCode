@@ -13,6 +13,8 @@ namespace SchoolService.Abstract
         public  Task<Student> GetStudentByIdAsync(int id);
 
         public Task<string> AddAsync(Student student);
-        
+        Task UpdateAsync(Student student);
+        Task DeleteAsync(Student student);
+
     } 
 }

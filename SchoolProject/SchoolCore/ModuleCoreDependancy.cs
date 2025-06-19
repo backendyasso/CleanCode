@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using SchoolCore.Basics;
 using SchoolCore.Behavior;
+using SchoolCore.Mapping.SubjectMap;
 using SchoolInfrastructure.Abstract;
 using SchoolInfrastructure.repository;
 using System.Reflection;
@@ -15,7 +16,7 @@ namespace SchoolCore
         {
             services.AddMediatR(c => c.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
+            services.AddAutoMapper(typeof(SubjectProfile).Assembly);
             // Get Validators
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             // 
